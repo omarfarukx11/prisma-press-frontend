@@ -27,9 +27,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     >
       <body className="min-h-full flex flex-col">
-      <header>navbar</header>
+      {/* <header>navbar</header> */}
         {children}
-      <footer>footer</footer>
+      {/* <footer>footer</footer> */}
         </body>
     </html>
   );
