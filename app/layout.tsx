@@ -27,7 +27,6 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
 
   const user = await getMeAction()
 
-  console.log(user)
   return (
     <html
       lang="en"

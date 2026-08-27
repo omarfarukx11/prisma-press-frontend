@@ -23,7 +23,6 @@ export const getMeAction = async () => {
       tags : ["my-profile"]
     }
   });
-  const result = res.json();
-  console.log(result)
+  const result = await res.json();
   return result;
 };
