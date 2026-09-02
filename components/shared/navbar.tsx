@@ -58,10 +58,9 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { label: "Projects", href: "/projects" },
-  { label: "Analytics", href: "/analytics" },
-  { label: "Pricing", href: "/pricing" },
-  { label: "Docs", href: "/docs" },
+  { label: "About", href: "/about" },
+  { label: "News", href: "/news" },
+  { label: "Premium", href: "/premium" },
 ];
 
 type UserProfile = {
