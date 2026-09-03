@@ -1,8 +1,11 @@
 import React from 'react'
 
-const NewsDetails = () => {
+const NewsDetails = async ({ params ,} : {
+  params : Promise<{id : string}>
+}) => {
+  const {id} = await params;
   return (
-    <div>NewsDetails</div>
+    <div>hello {id}</div>
   )
 }
 
